@@ -1,0 +1,143 @@
+body{
+  background-color: #000000;
+}
+
+.container {
+  width: 70%;
+  height: 86vh;
+  margin: 70px auto;
+  display: flex;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #8f7fea,
+    #acc3fd
+  );
+  box-shadow: 8px 0px 10px rgba(255, 255, 255, 0.5);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 350px;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #eaeef0;
+  letter-spacing: 2px;
+}
+
+label {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.brand-box {
+  flex: 1 20%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background: #27264e;
+}
+
+.sign-form {
+  flex: 1 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  font-size: 23px;
+  color: #27264e;
+}
+
+.input {
+  padding: 5px 7px;
+  font-size: 20px;
+  width: 80%;
+  display: block;
+  border-radius: 20px;
+  border: none; 
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.505);
+}
+
+input:focus {
+  background-color: white;
+  outline: none;
+  color: #27264e;
+  box-shadow: 0 5px #a19ee0;
+}
+
+.input-feedback {
+  color: #c50800;
+  margin-top: 0.25rem;
+  font-size: 14px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: inline;
+  font-size: 12px;
+}
+
+button {
+  max-width: 150px;
+  margin: 20px 0;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #27264e;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #8f7fea7b,
+    #acc3fd7a
+  );
+  transition: width 0.5s;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.topMargin {
+  margin-top: 0.8rem;
+}
+
+
+.color1 {color: #000014;}
+.color2 {color: #27264e;}
+.color3 {color: #564f96;}
+.color4 {color: #8f7fea;}
+.color5 {color: #d5b4ff;}
+
+.color6 {color: #5e6093;}
+.color7 {color: #a19ee0;}
+.color8 {color: #dfceea;}
+.color9 {color: #c50800;}
+
+.color10 {color: #9796c2;}
